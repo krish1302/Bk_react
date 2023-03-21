@@ -3,6 +3,7 @@ import './App.css';
 import Login from './Components/Login';
 import Welcome from './Components/Welcome';
 import { useState } from 'react';
+import UseState from './Components/UseState';
 
 function App() {
 
@@ -22,7 +23,7 @@ function App() {
 
   return (
     <div className="App">
-     {page}
+     <UseState book="Tamil" page="first"/>
     </div>
   );
 }
