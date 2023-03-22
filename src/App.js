@@ -4,6 +4,8 @@ import Login from './Components/Login';
 import Welcome from './Components/Welcome';
 import { useState } from 'react';
 import UseState from './Components/UseState';
+import LifeCycleA from './Components/LifeCycleA';
+import UpdateCycleA from './Components/UpdateCycleA';
 
 function App() {
 
@@ -23,7 +25,7 @@ function App() {
 
   return (
     <div className="App">
-     <UseState book="Tamil" page="first"/>
+     <UpdateCycleA />
     </div>
   );
 }
