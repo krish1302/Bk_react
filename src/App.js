@@ -6,6 +6,11 @@ import { useState } from 'react';
 import UseState from './Components/UseState';
 import LifeCycleA from './Components/LifeCycleA';
 import UpdateCycleA from './Components/UpdateCycleA';
+import FragmentDemo from './Components/FragmentDemo';
+import PureComponentDemo from './Components/PureComponentDemo';
+import NormalComponentDemo from './Components/NormalComponetDemo';
+import ParentDemoforPure from './Components/ParentDemoforPure';
+import RefClass from './Components/RefClass';
 
 function App() {
 
@@ -21,11 +26,13 @@ function App() {
   function check_user(login_user){
     setUser(login_user)
   }
+  
+  
 
 
   return (
     <div className="App">
-     <UpdateCycleA />
+      <RefClass />
     </div>
   );
 }
