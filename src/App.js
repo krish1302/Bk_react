@@ -11,6 +11,8 @@ import PureComponentDemo from './Components/PureComponentDemo';
 import NormalComponentDemo from './Components/NormalComponetDemo';
 import ParentDemoforPure from './Components/ParentDemoforPure';
 import RefClass from './Components/RefClass';
+import CallbackRefDemo from './Components/CallbackRefDemo';
+import ParentRefDemo from './Components/ParentRefDemo';
 
 function App() {
 
@@ -32,7 +34,7 @@ function App() {
 
   return (
     <div className="App">
-      <RefClass />
+     <ParentRefDemo />
     </div>
   );
 }
